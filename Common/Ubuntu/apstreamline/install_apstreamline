@@ -26,7 +26,7 @@ pushd ~/GitHub
  pushd APStreamline
   meson build
   pushd build
-   meson configure -Dprefix=/home/apsync/start_apstreamline/
+   meson configure -Dprefix=$HOME/start_apstreamline/
    time ninja
    sudo ninja install
   popd
